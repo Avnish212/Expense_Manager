@@ -1,0 +1,317 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.nav{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: rgb(7, 7, 156);
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.heroSection{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img1{
+  height: 400px;
+  width: 90%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.imageSection{
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px ;
+  background-image: url(./assets/7-Key-strategies-for-CFOs-to-Gain-Control-of-Expense-Management.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textSection{
+  width: 50%;
+  height: 100%;
+  color: rgb(7, 7, 156);
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: rgb(241,237,237);
+  background: linear-gradient(90deg, rgba(241,237,237,1) 0%, rgba(148,187,233,1) 100%);
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.line{
+  width: 300px;
+  border-bottom: 1px solid black;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+.textSection h4{
+  color: rgb(103, 89, 189);
+  margin-top: 70px;
+  font-size: 20px;
+}
+.textSection h1:first-child{
+  margin-top: -50px;
+}
+.textSection button{
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 60px;
+  background-color: rgb(107, 53, 255);
+  color: white;
+
+}
+.textSection button:hover{
+  background-color: rgb(131, 91, 243);
+}
+.profile{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.pf1{
+  width: 45%;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* background: rgb(241,237,237);
+  background: linear-gradient(90deg, rgba(241,237,237,1) 0%, rgba(148,187,233,1) 100%); */
+  border: 1px solid black;
+}
+.pf1:hover{
+  border: none;
+  -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.76);
+box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.76);
+}
+.pfimg{
+  width: 30%;
+  height: 100%;
+}
+.pfimg img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+.pfText{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-image: url(./assets/download.svg);
+  background-position:right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.pfText tr{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.pfText td:nth-child(2){
+  padding-left: 20px;
+}
+.add{
+  width: 45%;
+  height: 100%;
+  border-radius: 30px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.add form{
+  display: flex;
+  flex-direction: column;
+}
+.add form input{
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin-top: 10px;
+}
+::placeholder {
+  color: black;
+}
+#dropDown{
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.add form button{
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  margin-left: 120px;
+  background-color: rgb(107, 53, 255) ;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+.add form button:hover{
+  background-color:rgb(125, 80, 250);
+}
+.add:hover{
+  border: none;
+  -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.76);
+box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.76);
+}
+.graphSection{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 600px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(241,237,237);
+  background: linear-gradient(90deg, rgba(241,237,237,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 30px;
+  margin-left: 60px;
+}
+.graph1{
+  width: 45%;
+  height: 90%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.graph2{
+  width: 45%;
+  height: 90%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.list1{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.listI1{
+  width: 80%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(241,237,237);
+  background: linear-gradient(90deg, rgba(241,237,237,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.partAmount{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(251, 81, 81);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+.partAmount2{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(135, 142, 247);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.partText{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.line{
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.footer h5{
+  margin-top: 10px;
+}
+.partText1{
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textButton{
+  width: 5%;
+  height: 100%;
+  display: flex;
+}
+.textButton button{
+  width: 30px;
+  height: 100%;
+  border: none;
+  background: transparent;
+}
+.textButton button i{
+  font-size: large;
+   
+}
+.textButton button:hover{
+  transform: scale(1.5);
+  transition: transform .2s;
+}
